@@ -524,4 +524,3 @@ void upperLine() {
     }
     cout<<endl;
 }
-
