@@ -145,25 +145,16 @@ double WithAlc::priceModifier() const {
 bool WithAlc::ageCheck() {
     short int input;
     cout << "Please enter your age: ";
-    try {
-        cin >> input;
-        if (!std::cin.fail()) {
-            if (input < 21) {
-                return false;
-            }
-            else {
-                cout << "You can have access to alcoholic drinks!" << endl;
-                cout << "Side note: according to the Romanian regulations regarding selling fo alcoholic drinks, you will be imposed with a 5% excise tax!" << endl;
-                return true;
-            }
-        }
-        else {
-            throw std::invalid_argument("Your choice is invalid. Please try again!");
-        }
-    }
-    catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
-        cin.clear();
+    cin >> input;
+    if (!std::cin.fail()) {
+         if (input < 21) {
+            return false;
+         }
+         else {
+            cout << "You can have access to alcoholic drinks!" << endl;
+            cout << "Side note: according to the Romanian regulations regarding selling fo alcoholic drinks, you will be imposed with a 5% excise tax!" << endl;
+            return true;
+         }
     }
 }
 
