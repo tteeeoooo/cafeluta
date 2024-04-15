@@ -609,9 +609,9 @@ float Cart::order(Cart &cart, vector<Drink*> coffeeMenu) {
                             priceList.push_back(coffeeMenu[input - 1]->getDrinkPrice());
                         }
 
-                        cout << "Nu stiu ce are varul asta!" << endl;
+                  
                         cout << cart << endl;
-                        cout << "bandit" << endl;
+                     
 
 
                         if (cart.cartPrice() > 30) {
