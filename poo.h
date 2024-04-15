@@ -88,8 +88,8 @@ public:
     static bool ageCheck();
 
     std::ostream& operator<<(std::ostream& coutt) const;
-    std::istream& operator>>(std::istream& cinn);
-    WithAlc& operator=(const WithAlc& hydrating);
+    std::istream& operator>>(std::istream& cinnn);
+    WithAlc& operator=(const WithAlc& hydratingg);
 
     virtual ~WithAlc();
 };

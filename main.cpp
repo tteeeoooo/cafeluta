@@ -187,11 +187,11 @@ std::istream& WithAlc::operator>>(std::istream& cinnn) {
 
 
 
-WithAlc& WithAlc::operator=(const WithAlc& hydrating) {
-    if (this != &hydrating) {
-        drinkChoice = hydrating.drinkChoice;
-        price = hydrating.price;
-        alcohol = hydrating.alcohol;
+WithAlc& WithAlc::operator=(const WithAlc& hydratingg) {
+    if (this != &hydratingg) {
+        drinkChoice = hydratingg.drinkChoice;
+        price = hydratingg.price;
+        alcohol = hydratingg.alcohol;
     }
     return *this;
 }
