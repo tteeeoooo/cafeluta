@@ -180,9 +180,9 @@ std::ostream& WithAlc::operator<<(std::ostream& coutt) const {
 }
 
 
-std::istream& WithAlc::operator>>(std::istream& cinn) {
-    cinn >> drinkChoice >> price >> alcohol;
-    return cinn;
+std::istream& WithAlc::operator>>(std::istream& cinnn) {
+    cinnn >> drinkChoice >> price >> alcohol;
+    return cinnn;
 }
 
 
