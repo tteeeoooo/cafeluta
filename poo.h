@@ -63,7 +63,7 @@ public:
     void description() const override;
     int getCalories() const;
 //    virtual void setAlc(int percent) const = 0;
-    virtual double priceModifier() const override;
+    double priceModifier() const override;
 
     std::ostream& operator<<(std::ostream& coutt) const;
     std::istream& operator>>(std::istream& cinn);
@@ -84,7 +84,7 @@ public:
 
     void description() const override;
     int getAlc() const;
-    virtual double priceModifier() const override;
+    double priceModifier() const override;
     static bool ageCheck();
 
     std::ostream& operator<<(std::ostream& coutt) const;
