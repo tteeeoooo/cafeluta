@@ -3,6 +3,3 @@
 int doSomething(int x) {
     return x;
 }
-
-
-    
