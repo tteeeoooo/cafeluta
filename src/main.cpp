@@ -12,7 +12,7 @@ Drink::Drink(const Drink &bauturica) = default;
 Drink& Drink::operator=(const Drink &bauturica) {   
     if (this != &bauturica) {
         this -> drinkChoice = bauturica.drinkChoice;
-        this -> price = bauturica.price;
+        this -> price = bauturica.price;   
     }
     return *this;
 }
