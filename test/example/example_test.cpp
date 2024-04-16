@@ -1,10 +1,32 @@
-// #include <gtest/gtest.h>
-// #include "example.h"
+nume
+1
+2
+0
+0
+0
+0
 
-// TEST(SuiteName, TestName) {
-//     EXPECT_EQ(doSomething(10), 10);
-//     // Other assertions: https://google.github.io/googletest/reference/assertions.html#boolean
-// }
 
-
+nume
+2
+parola
+1
+1
+1
+1
+1
+1
+1
+2
+0
+0
+1
+adresa
+747674
+1
+354
+678
+1
+3
+1
     
