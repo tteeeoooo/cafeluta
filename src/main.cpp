@@ -9,7 +9,7 @@ Drink::Drink(const string &drinkName, const double &priceTag): drinkChoice(drink
 
 Drink::Drink(const Drink &bauturica) = default;
 
-Drink& Drink::operator=(const Drink &bauturica) {
+Drink& Drink::operator=(const Drink &bauturica) {   
     if (this != &bauturica) {
         this -> drinkChoice = bauturica.drinkChoice;
         this -> price = bauturica.price;
