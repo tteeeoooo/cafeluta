@@ -11,7 +11,7 @@ protected:
     string drinkChoice;       //tipul bauturii
     double price;
 public:
-    explicit Drink(std::string drinkName = "", const double &priceTag = 0);
+    explicit Drink(const std::string &drinkName = "", const double &priceTag = 0);
     Drink(const Drink &bauturica);
 
     Drink &operator=(const Drink &bauturica);
